@@ -21,6 +21,9 @@ Thumbs.db
 # Logs
 *.log
 
-# Data and models (optional: track if needed)
-data/
-models/
+# Optional: Ignore large datasets or models (uncomment if needed)
+# data/
+# models/
+
+# Streamlit-specific cache (optional)
+.streamlit/
