@@ -3,10 +3,15 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
+import joblib
 
 # %%
 import sklearn
-print(sklearn.__version__)
+print("NumPy:", np.__version__)
+print("Seaborn:", sns.__version__)
+print("Pandas:", pd.__version__)
+print("Scikit-learn:", sklearn.__version__)
+print("Joblib:", joblib.__version__)
 
 # %%
 df = pd.read_csv('../data/House Price India.csv')
