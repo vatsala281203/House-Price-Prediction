@@ -61,6 +61,7 @@ rf = RandomForestRegressor(n_estimators=100, random_state=42)
 rf.fit(X_train, y_train)
 
 # %%
+X_test = pd.DataFrame(X_test, columns=X_train.columns)
 y_pred = rf.predict(X_test)
 
 # %%
